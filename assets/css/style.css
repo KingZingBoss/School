@@ -12,5 +12,11 @@
     font-size: 100px;
 }
 #about{
-    margin-left: 270px;
+    margin-left: 89px;
+    background-color: rgb(255, 0, 0, 20%);
+    padding: 64px;
+}
+center h1{
+    font-weight: 500;
+    text-align: left !important;
 }

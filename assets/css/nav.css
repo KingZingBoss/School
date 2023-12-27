@@ -14,7 +14,7 @@
   width: 260px;
   z-index: 100;
   transition: all 0.5s ease;
-   background: #fff;
+   background: none;
 }
 .sidebar.close{
   width: 78px;
@@ -69,7 +69,7 @@
   content:'';
   width:4px;
   height:100%;
-  background:#93181a;
+  background:rgb(255, 0, 0, 100%);
   opacity: 0;
   transition: all 0.25s ease-in-out;
   border-top-right-radius:5px;
@@ -100,7 +100,7 @@
 
 .sidebar .nav-links li.active i,
 .sidebar .nav-links li:hover i{
-  color: #93181a;  
+  color: rgb(255, 0, 0, 100%);  
 }
 .sidebar .nav-links li.showMenu i.arrow{
   transform: rotate(-180deg);
@@ -121,7 +121,7 @@
 }
 .sidebar .nav-links li.active a .link_name,
 .sidebar .nav-links li:hover a .link_name{  
-  color: #93181a;
+  color: rgb(255, 0, 0, 100%);
 }
 .sidebar.close .nav-links li a .link_name{
   opacity: 0;
