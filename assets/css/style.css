@@ -1,22 +1,69 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
-*, h1, h2, h3, h4, h5, h6{
+
+*,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Inter";
 }
-.color-grey{
+
+.color-grey {
     padding: 64px;
     align-items: center;
     text-align: center;
 }
-.top{
+
+.top {
     font-weight: 700;
     font-size: 100px;
 }
-#about{
+
+#about {
     margin-left: 89px;
     background-color: rgb(255, 0, 0, 20%);
     padding: 64px;
 }
-center h1{
+
+center h1 {
     font-weight: 500;
     text-align: left !important;
+}
+
+#counter {
+    margin-left: 89px;
+    padding: 64px;
+}
+
+#counter center h1 {
+    font-weight: 500;
+    text-align: left !important;
+    font-size: 50px;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+#counter center {
+    align-items: left;
+}
+
+.left {
+    float: left !important
+}
+
+.right {
+    float: right !important
+}
+
+.half {
+    width: 49.99999%
+}
+
+#students, #alumni{
+    font-size: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 64px;
 }
