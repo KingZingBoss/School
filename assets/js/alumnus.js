@@ -23,4 +23,4 @@ function animateValue(id, start, end, duration) {
     };
     requestAnimationFrame(fn);
 }
-animateValue('alumni', 0, 90, 3000);
+animateValue('alumni', 0, 400, 3000);

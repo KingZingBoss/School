@@ -11,7 +11,7 @@ function animateValue(id, start, end, duration) {
             progress = ms - starttime;
             if (progress >= duration) {
                 // the `+ ' ' + progress + 'ms';` is just to show the duration, wouldn't use that in final code
-                current = end.toLocaleString()   ;
+                current = end.toLocaleString() + "+"  ;
             } else {
                 current = start + Math.floor(progress/duration * range);
             }
@@ -23,4 +23,4 @@ function animateValue(id, start, end, duration) {
     };
     requestAnimationFrame(fn);
 }
-animateValue('students', 0, 40, 3000);
+animateValue('students', 0, 50, 3000);
