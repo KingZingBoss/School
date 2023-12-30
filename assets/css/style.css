@@ -30,12 +30,18 @@ h6 {
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: multiply;
-
+    background-attachment: fixed;
+    color: white;
 }
 
 center h1 {
     font-weight: 500;
     text-align: left !important;
+}
+
+center.small h1 {
+    font-weight: 500;
+    text-align: center !important;
 }
 
 #counter {
@@ -79,6 +85,34 @@ center h1 {
     width: 24.99999%;
 }
 
-#counter.counter .right.half .right.quarter center i{
+#counter.counter .right.half .right.quarter center i,
+.blup i {
     font-family: "Roboto";
+}
+
+.hide-small,
+.hide-medium,
+.hide-large {
+    display: auto;
+}
+
+@media (max-width: 768px) {
+    .hide-small {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) {
+
+    .hide-large,
+    .shithellseedling {
+        display: none;
+    }
+}
+
+#students2,
+#alumni2 {
+    font-size: 30px;
+    text-align: center !important;
+    align-items: center !important;
 }
