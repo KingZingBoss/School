@@ -11,6 +11,24 @@ h6 {
     font-family: "Inter";
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(255, 0, 0, 70%); 
+  }	
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: tomato; 
+  }
 .color-grey {
     padding: 64px;
     align-items: center;
